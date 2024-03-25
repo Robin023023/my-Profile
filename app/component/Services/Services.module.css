@@ -1,0 +1,34 @@
+.Services{
+    text-align: center;
+    padding-top:100px;
+}
+
+.Services h1{
+    font-size: 42px;
+    line-height: 1.3em;
+    font-weight: bolder;
+}
+
+.Services .box{
+    padding: 50px 30px;
+    border: 1px solid #FFE2D1;
+    border-radius: 6px;
+    transition: all .3s;
+}
+
+.Services .box:hover{
+    background-color: rgb(219, 230, 226);
+}
+
+.Services .box h3{
+    margin-top:20px;
+    margin-bottom: 13px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Services .box p{
+    line-height: 1.9em;
+    font-weight: 400;
+    color: rgb(151, 143, 143)
+}

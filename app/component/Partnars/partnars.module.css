@@ -1,0 +1,39 @@
+.partnar{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.partnar p{
+    font-size: 16px;
+}
+
+.partnar h1{
+    font-size: 44px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.partnar .card{
+    padding: 30px 60px;
+    border: 1px solid #FFE2D1;
+    border-radius: 6px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.partnar .card:hover .imgfluid {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media screen and (max-width:767px){
+    .partnar .card .imgfluid{
+        width: 100px;
+        height:70px;
+    }
+}

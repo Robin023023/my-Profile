@@ -1,0 +1,42 @@
+.contact{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.contact h1{
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.contact button{
+    float: left;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 32px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 6px;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+.contact button:hover{
+    box-shadow: 3px 2px 5px 4px rgb(87, 86, 86);
+}
+
+.contact .formLetter{
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+.contact .icon{
+    color:rgb(59, 201, 24);
+    background-color: rgb(232, 235, 237);
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}

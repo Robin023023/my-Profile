@@ -1,0 +1,55 @@
+.Resume{
+    text-align: left;
+    padding-top:50px;
+    width: 100%;
+    background-color: rgb(235, 247, 227);
+}
+
+.Resume .hr{
+    width: 1px;
+    height: 270px;
+    background-color: red;
+}
+
+.Resume h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.Resume .dot{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.Resume .text{
+    margin-top:150px;
+    margin-left:-9px;
+}
+
+.Resume h1{
+    font-size: 44px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.Resume h3{
+    position: relative;
+    top:-5px;
+    left:10px; 
+}
+
+.Resume .border{
+    width: calc(100% - 55px);
+    height: 1px;
+    margin:10px;
+    background-color: #D9D9D9;
+}
+
+.Resume p{
+    margin-left: 10px;
+}
+
+
+

@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #75e419;
+    
+  }
+  
+
+.blog{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 2px 3px rgb(184, 171, 171);
+}
+
+.Link{
+    text-decoration: none;
+    margin: 0px 0px 0px 25px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.Link:hover{
+    color:red;
+}
+
+@media screen and (max-width:991px) {
+    .Link{
+      border:1px solid rgb(172, 167, 167);
+      position: relative;
+      width: 100%;
+      padding: 15px;
+      top:10px;
+      left: -20px;
+      background-color: rgb(41, 38, 38);
+      color: rgb(184, 190, 196);
+      font-size: 20px;
+    }
+
+    .Link:hover{
+        background-color: rgb(49, 48, 47);
+    }
+  }

@@ -1,0 +1,91 @@
+/* portfolio css */
+.Portfolio{
+  text-align: center;
+  padding-top:100px;
+}
+
+.Portfolio .heading{
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 50px;
+}
+
+/* tab css */
+
+.tab button{
+    color: var(--orange-color);
+    font-weight:bolder
+    
+}
+
+.tab img{
+  width: 100%;
+  height: 350px;
+  margin:20px
+}
+
+.tab .image{
+  position: relative;
+  overflow: hidden;
+}
+
+.tab .image::after{
+    content: '';
+    width: 100%;
+    height:0;
+    position: absolute;
+    top:0;
+    left: 0; 
+    opacity: 0.7;
+    margin:20px;
+    transition:0.5s;
+    background-color: rgb(20, 19, 19);
+}
+
+.image:hover.image::after{
+  height: 350px;
+}
+
+.tab .box{
+  position: relative;
+}
+
+ .tab .text{
+  background-color:rgb(150, 150, 55);
+  text-align: left;
+  width:70%;
+  padding:20px 30px;
+  color: rgb(238, 231, 231);
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+  bottom:-150px;
+  left:50px;
+  z-index: 2;
+  transform: translateY(100%);
+  transition:1s; 
+} 
+
+.image:hover .text {
+  bottom:200px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 100%;
+  }
+  
+  .text {
+    text-align: center; 
+  }
+  
+  
+  .text span {
+    display: block; 
+    margin-bottom: 5px; 
+  }
+}
+

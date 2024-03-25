@@ -1,0 +1,157 @@
+
+.card .icon{
+    font-size:25px;
+    color: rgb(211, 211, 98);
+    margin:50px 10px 50px 0px;
+    cursor: pointer;
+}
+
+.card span{
+    font-size: 20px;
+    position: relative;
+    top:5px;
+    right:10px;
+    font-weight: bolder;
+}
+
+.card h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.card p{
+    margin-top: 50px;
+    line-height: 1.7em;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card .sentence{
+    padding: 65px 75px;
+    background-color:rgba(192, 219, 179, 0.699);
+    border-radius: 6px; 
+    margin-top: 50px;
+}
+
+.sentence h3{
+    margin-bottom: 50px; 
+    line-height: 1.6em;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.sentence h4{
+    font-weight: 600;
+    font-size: 21px;
+    color:orange;
+    margin: 0;
+}
+
+.card img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.card ul{
+    list-style-type: none;
+}
+
+.card ul li{
+    display: flex;
+    align-items: center;
+}
+
+.card ul li .icons{
+    font-size: 30px;
+    margin: 0;
+    color:rgb(98, 212, 69);
+}
+
+.card ul li .iconText{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+@media screen and (min-width:1200px){
+    .card ul li{
+        position: relative;
+        top:-45px;
+        left:60px;
+    } 
+}
+
+.useful .icon{
+    font-size:15px;
+}
+
+.useful .icon2{
+    font-size:15px;
+    margin-left: 10px;
+    border:1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.useful .icon2:hover{
+    box-shadow: 2px 2px 5px 1px rgb(90, 86, 86);
+}
+
+.card .review{
+    padding:0 40px;
+}
+
+.card .review .img{
+    width:150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.card .review h4{
+    font-weight: bold;
+}
+
+.card .review p{
+    position: relative;
+    top:-40px;
+}
+
+.card .review span{
+    font-size:15px;
+    margin-left: 10px;
+    font-weight: normal;
+    position: relative;
+    top:-20px;
+    cursor: pointer;
+}
+
+.card .review .icon{
+    font-size: 20px;
+    margin:5px;
+}
+
+.card .review .iconReply{
+    position: relative;
+    right:-30%;
+    
+}
+
+@media screen and (max-width:768px){
+    .card .review .iconReply{
+        position: relative;
+        right:-10%;
+        
+    }
+}
+
+.card .review .iconReply2{
+    color:rgb(98, 212, 69);
+    margin:5px; 
+}
+
+
+
+

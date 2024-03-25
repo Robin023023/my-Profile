@@ -1,0 +1,48 @@
+.Blog{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Blog h1{
+    font-size: 44px;
+    font-weight: 800;
+} 
+
+
+.Blog img{
+    height: 300px;
+    width:100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.Blog .textarea{
+    text-align: start;
+    padding:40px 20px;
+}
+
+.textarea p{
+    color: #6F6B80;
+    margin-bottom: 20px;
+    line-height: 1.7em;
+    font-weight: 400;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+}
+
+.textarea h3{
+    line-height: 1.3em;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.textarea h3:hover{
+    color:rgb(65, 236, 13);
+    transition: 1s;
+}
+
+.textarea a{
+    text-decoration: none;
+    font-weight: 600;
+    color: orange;
+    line-height: 1.7em;
+}

@@ -33,7 +33,7 @@ export default function Tab() {
   <div className='col-lg-4 all'>
   <div className={styles.box}>
     <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFive.png' alt='uu'/>
+    <Image width={1000} height={50} src='/img/portfolioFive.png' alt='uu'/>
     
       <div className={styles.text}>
       <span>Graphic Design</span>
@@ -43,7 +43,7 @@ export default function Tab() {
       
 
       <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFour.png' alt='tt'/>
+    <Image width={1000} height={50} src='/img/portfolioFour.png' alt='tt'/>
     
       <div className={styles.text}>
       <span>Graphic Design</span>
@@ -52,7 +52,7 @@ export default function Tab() {
       </div>
 
       <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioThree.png' alt='ee'/>
+    <Image width={1000} height={50} src='/img/portfolioThree.png' alt='ee'/>
     
       <div className={styles.text}>
       <span>Graphic Design</span>
@@ -64,7 +64,7 @@ export default function Tab() {
   <div className='col-lg-4 UI Graphic App'>
   <div className={styles.box}>
   <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioTwo.png' alt='uu'/>
+    <Image width={1000} height={50} src='/img/portfolioTwo.png' alt='uu'/>
     
       <div className={styles.text}>
       <span>Graphic Design</span>
@@ -72,7 +72,7 @@ export default function Tab() {
       </div>
       </div>
       <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFour.png' alt='66'/>
+    <Image width={1000} height={50} src='/img/portfolioFour.png' alt='66'/>
     
       <div className={styles.text}>
       <span>Graphic Design</span>
@@ -81,7 +81,7 @@ export default function Tab() {
       </div>
 
       <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFour.png' alt='hh'/>
+    <Image width={1000} height={50} src='/img/portfolioFour.png' alt='hh'/>
     
     
       <div className={styles.text}>
@@ -95,7 +95,7 @@ export default function Tab() {
   <div className='col-lg-4 Branding UI Web'>
   <div className={styles.box}>
   <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFour.png' alt='ss'/>
+    <Image width={1000} height={50} src='/img/portfolioFour.png' alt='ss'/>
     
     
       <div className={styles.text}>
@@ -105,7 +105,7 @@ export default function Tab() {
       </div>
 
       <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFour.png' alt='yy'/>
+    <Image width={1000} height={50} src='/img/portfolioFour.png' alt='yy'/>
     
     
       <div className={styles.text}>
@@ -115,7 +115,7 @@ export default function Tab() {
       </div>
 
       <div className={styles.image}>
-    <Image width={100} height={50} src='/img/portfolioFour.png' alt='aa'/>
+    <Image width={1000} height={50} src='/img/portfolioFour.png' alt='aa'/>
     
     
       <div className={styles.text}>

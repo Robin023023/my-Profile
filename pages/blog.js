@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Blog=[
     {
         id:1,
@@ -21,3 +23,4 @@ export const Blog=[
         click:'Read More'
     },
 ]
+

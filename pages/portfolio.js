@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const portfolio=
 [
     {   
@@ -65,3 +67,4 @@ export const portfolio=
         "heading":"The best way to impress your web",
     }
 ]
+

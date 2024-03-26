@@ -15,14 +15,24 @@ export default function Blog() {
 
   const toggle = () => setModal(!modal); 
 
-  useEffect(()=>{
+  useEffect(() => {
     fetch("http://localhost:3000/api/blog")
-    .then((res)=>res.json())
-    .then((data)=>{
-      setData(data)
-      setLoading(false)
-    })
-  },[])
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return res.json();
+      })
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+        // Handle error state if needed
+      });
+  }, []);
+  
 
   if (isLoading) return <p>Loading...</p>
   if (!data) return <p>No profile data</p>

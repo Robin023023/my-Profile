@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const carouselSlide=[
     {
         "id":1,
@@ -70,5 +72,7 @@ export const carouselSlide=[
       },
 
 ]
+
+
 
 
